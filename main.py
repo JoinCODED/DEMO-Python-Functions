@@ -33,14 +33,14 @@ def get_bmi_status(bmi):
         return "overweight"
 
 
-aBmi = get_bmi(80, 1.8)
-bBmi = get_bmi(40, 1.8)
-cBmi = get_bmi(120, 1.8)
+bmi1 = get_bmi(80, 1.8)
+bmi2 = get_bmi(40, 1.8)
+bmi3 = get_bmi(120, 1.8)
 
-aStatus = get_bmi_status(aBmi)
-bStatus = get_bmi_status(bBmi)
-cStatus = get_bmi_status(cBmi)
+status1 = get_bmi_status(bmi1)
+status2 = get_bmi_status(bmi2)
+status3 = get_bmi_status(bmi3)
 
-print("a", aBmi, aStatus)
-print("b", bBmi, bStatus)
-print("c", cBmi, cStatus)
+print("a", bmi1, status1)
+print("b", bmi2, status2)
+print("c", bmi3, status3)
